@@ -20,4 +20,3 @@ for file in filenames:
     pdf.multi_cell(w=0, h=6, txt=content)
 
 pdf.output("Output.pdf")
-
